@@ -22,6 +22,8 @@ const config: UserConfig = {
           { text: 'Цветная капуста, запечённая с сыром', link: '/cauliflower-with-cheese.html' },
           { text: 'Сырный крем-суп с шампиньонами', link: '/cremma-soup.html' },
           { text: 'Рулет из лавашей', link: '/russian-roulette.html' },
+          { text: 'Лазанья', link: '/lasagna.html' },
+          { text: 'Плов со свининой', link: '/pilaf.html' },
         ],
       },
       {

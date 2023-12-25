@@ -1,5 +1,5 @@
 # Stage 1 - the build process
-FROM node:latest AS build
+FROM node:20 AS build
 
 COPY ./docs /app/docs
 COPY ./package.json /app/package.json
@@ -8,7 +8,7 @@ COPY ./package-lock.json /app/package-lock.json
 WORKDIR /app
 
 RUN npm install
-RUN npm run docs:build
+RUN npm run build
 
 # Stage 2 - the production environment
 

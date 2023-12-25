@@ -22,15 +22,22 @@ const config: UserConfig = {
           { text: 'Плов со свининой', link: '/pilaf.html' },
           { text: 'Рулет из лавашей', link: '/russian-roulette.html' },
           { text: 'Сыр панир', link: '/paneer-cheese.html' },
-          { text: 'Сырный крем-суп с шампиньонами', link: '/cremma-soup.html' },
           { text: 'Цветная капуста, запечённая с сыром', link: '/cauliflower-with-cheese.html' },
         ],
+      },
+      {
+        text: 'Супы',
+        items: [
+          { text: 'Суп с фрикадельками', link: '/meatballs-soup.html' },
+          { text: 'Сырный крем-суп с шампиньонами', link: '/cremma-soup.html' },
+        ]
       },
       {
         text: 'Десерты',
         items: [
           { text: 'Ажурные блины на кефире', link: '/pancakes.html' },
           { text: 'Классические сырники', link: '/cottage-cheese-cakes.html' },
+          { text: 'Чизкейк Филадельфия', link: '/philadelphia-cheesecake.html' },
           { text: 'Лимонно-творожный чизкейк без выпечки', link: '/lemon-cheesecake.html' },
         ]
       },

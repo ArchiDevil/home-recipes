@@ -1,6 +1,0 @@
-services:
-  web:
-    build: .
-    ports:
-      - "6599:6599"
-    restart: always
